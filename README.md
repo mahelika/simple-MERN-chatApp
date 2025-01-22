@@ -39,7 +39,7 @@ Ensure MongoDB is running or use your cloud MongoDB connection URL
 ### Start the application
 npm start
 
-# The app should now be accessible at http://localhost:8080
+## The app should now be accessible at http://localhost:8080
 
 
 
