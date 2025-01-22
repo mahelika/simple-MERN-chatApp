@@ -23,20 +23,20 @@ A simple chat application built using the **MERN stack** (MongoDB, Express, Reac
 
 Ensure you have [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/try/download/community) installed on your machine.
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/username/repository-name.git
 
-# Navigate into the project folder
+### Navigate into the project folder
 cd repository-name
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# (Optional) If you haven't set up MongoDB locally, you might want to install and run it.
-# If you are using a cloud MongoDB, make sure to update the connection string in your code.
-# Ensure MongoDB is running or use your cloud MongoDB connection URL
+(Optional) If you haven't set up MongoDB locally, you might want to install and run it.
+If you are using a cloud MongoDB, make sure to update the connection string in your code.
+Ensure MongoDB is running or use your cloud MongoDB connection URL
 
-# Start the application
+### Start the application
 npm start
 
 # The app should now be accessible at http://localhost:8080
