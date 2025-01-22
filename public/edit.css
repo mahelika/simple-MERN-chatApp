@@ -1,0 +1,70 @@
+/* Styling the page container */
+.edit-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Title style */
+.edit-title {
+    font-size: 18px;
+    color: palevioletred;
+    margin-bottom: 15px;
+}
+
+/* Info paragraph style */
+.edit-info {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-textarea {
+    width: 90%;
+    max-width: 500px;
+    padding: 12px;
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.edit-textarea:focus {
+    border-color: mediumvioletred;
+}
+
+/* Save button style */
+.edit-button {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+}
+
+.edit-button:hover {
+    background-color: mediumvioletred;
+    transform: scale(1.05);
+}
+
+.edit-button:active {
+    background-color: deeppink;
+    transform: scale(0.95);
+}

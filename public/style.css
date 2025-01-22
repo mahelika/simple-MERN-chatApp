@@ -1,0 +1,39 @@
+body {
+    margin-left: 20px;
+}
+
+.chat {
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 50px;
+    display:inline-block ;
+}
+
+.msg{
+    background-color: palevioletred;
+    color: whitesmoke;
+    padding: 5px 15px;
+    border-radius: 20px;
+
+}
+
+button {
+    background-color: rgb(232, 154, 180);
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: mediumvioletred;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: deeppink;
+    transform: scale(0.95);
+  }

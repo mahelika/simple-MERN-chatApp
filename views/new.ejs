@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new chat</title>
+</head>
+<body>
+    <h3> Create new chat..</h3>
+    <form method="POST" action="/chats">
+        <input placeholder="your name?" name="from" />
+        <br>  <br>
+        <textarea name="msg" placeholder="drop your text here.."></textarea>
+        <br>  <br>
+        <input placeholder="add receiver's name" name="to" />
+        <br>  <br>
+        <button>Send chat</button>
+    </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new chat</title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <h3 class="form-heading">Create new chat..</h3>
+    <form method="POST" action="/chats" class="chat-form">
+        <input placeholder="Your name?" name="from" class="form-input" />
+        <textarea name="msg" placeholder="Drop your text here.." class="form-textarea"></textarea>
+        <input placeholder="Add receiver's name" name="to" class="form-input" />
+        <button class="form-button">Send chat</button>
+    </form>
+</body>
+</html>
