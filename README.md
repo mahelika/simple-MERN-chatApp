@@ -41,5 +41,14 @@ npm start
 
 ## The app should now be accessible at http://localhost:8080
 
+# Routes
+
+- GET /chats: Display all chats.
+- GET /chats/new: Display a form to create a new chat.
+- POST /chats: Create a new chat and save it to the database.
+- GET /chats/:id/edit: Display a form to edit a specific chat message.
+- PUT /chats/:id: Update a specific chat message.
+- DELETE /chats/:id: Delete a specific chat message.
+
 
 
