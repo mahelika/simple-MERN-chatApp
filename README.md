@@ -1,6 +1,6 @@
-# MERN Chat App
+# Chat App
 
-A simple chat application built using the **MERN stack** (MongoDB, Express, React, Node.js). This app allows users to create, edit, and delete chat messages. It provides basic CRUD functionality for chat messages, and the app stores data in a MongoDB database.
+A simple CRUD application. This app allows users to create, edit, and delete chat messages. It provides basic CRUD functionality for chat messages, and the app stores data in a MongoDB database.
 
 ## Features
 
